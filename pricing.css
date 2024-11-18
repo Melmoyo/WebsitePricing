@@ -1,0 +1,85 @@
+.header-container{
+	background-color:Lightgrey;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.main-container{
+	display:flex;
+	flex-direction:row;
+	
+}
+.free,.team,.popular,.enterprise{
+	width:150px;
+	text-align:center;
+	
+}
+.desc{
+	background-color:Lightgrey;
+	color:#152238;
+	padding:8px;
+
+}
+table{
+	border-collapse:collapse;
+	border:none;
+}
+tr{
+
+border-bottom:1px  solid Lightgrey;
+}
+#website-num{
+	border-bottom:none;
+}
+.speed{
+	border-bottom-left-radius:10px;
+}
+.webnum{
+	border-top-left-radius:10px;
+}
+td{
+	color:#152238;
+}
+.popular{
+	background-color:#152238;
+	color:white;
+}
+.label{
+	color:Skyblue;
+}
+.popular .label{
+	background-color:skyBlue;
+	color:white;
+	border-radius:10px;
+margin-left:25px;
+margin-right:25px;
+	
+}
+.link{
+	background-color:pink;
+	height:50px;
+	border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+}
+.top{
+	border-top-left-radius:10px;
+		border-top-right-radius:10px;
+}
+.price{
+	font-size:30px;
+	color:#152238;
+	
+}
+.popular .price{
+	color:white;
+}
+.period{
+	color:grey;
+}
+a{
+	text-decoration:none;
+}
+a{
+	color:blue;
+}
